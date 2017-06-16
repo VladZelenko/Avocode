@@ -1,0 +1,13 @@
+.header {
+	padding: 95px 0 90px 0;
+	width: 100%;
+	min-height: 620px;
+	background: url("../../img/header-bg@2x.png") center center;
+	.logo img {width: 240px;}
+	.title {
+		margin-bottom: 20px;
+		color: $secondary_font_color;
+		font: 300 38px $primary_font;
+	}
+	.description {color: #8c8c8c;}
+}

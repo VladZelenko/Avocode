@@ -42,6 +42,10 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+@font-face {
+  font-family: "Open Sans";
+  src: url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"); }
+
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
@@ -60,6 +64,10 @@ body {
 p {
   color: #7d838b;
   font: 600 14px/24px "Open Sans", sans-serif; }
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"); }
 
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
@@ -5994,3 +6002,17 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+
+.header {
+  padding: 95px 0 90px 0;
+  width: 100%;
+  min-height: 620px;
+  background: url("../../img/header-bg@2x.png") center center; }
+  .header .logo img {
+    width: 240px; }
+  .header .title {
+    margin-bottom: 20px;
+    color: #ffffff;
+    font: 300 38px "Open Sans", sans-serif; }
+  .header .description {
+    color: #8c8c8c; }
