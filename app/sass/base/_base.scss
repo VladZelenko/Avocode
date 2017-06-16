@@ -1,9 +1,14 @@
 *, *:after, *:before {box-sizing: border-box;}
 li {list-style: none;}
-a {text-decoration: none;}
-a:hover {text-decoration: none;}
 img {
 	max-width: 100%;
 	height: auto;
 }
-body {font-family: $primary_font;}
+body {
+	font-family: $primary_font;
+	text-align: center;
+}
+p {
+	color: $primary_font_color;
+	font: 600 14px/24px $primary_font;
+}
