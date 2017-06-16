@@ -6044,3 +6044,37 @@ button.close {
   .capabilities-avocode li h3 {
     color: #4b4f52;
     font: 400 18px "Open Sans", sans-serif; }
+
+.styles-code {
+  padding: 65px 0 50px 0;
+  width: 100%;
+  min-height: 530px; }
+  .styles-code .title {
+    margin-top: 80px;
+    text-align: left; }
+  .styles-code p {
+    margin-top: 30px;
+    width: 315px;
+    text-align: left; }
+
+.primary-brn {
+  display: block;
+  margin: 35px 0;
+  width: 205px;
+  color: #ffffff;
+  font: 700 15px/55px "Open Sans", sans-serif;
+  text-transform: uppercase;
+  -webkit-box-shadow: 0 15px 15px rgba(0, 188, 135, 0.2);
+          box-shadow: 0 15px 15px rgba(0, 188, 135, 0.2);
+  -webkit-border-radius: 29px;
+          border-radius: 29px;
+  background-color: #446edf;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#00a983), to(#00bc87));
+  background-image: -webkit-linear-gradient(bottom, #00a983 0%, #00bc87 100%);
+  background-image: linear-gradient(to top, #00a983 0%, #00bc87 100%); }
+  .primary-brn:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background: #446edf;
+    -webkit-box-shadow: 0 15px 15px rgba(68, 110, 223, 0.2);
+            box-shadow: 0 15px 15px rgba(68, 110, 223, 0.2); }

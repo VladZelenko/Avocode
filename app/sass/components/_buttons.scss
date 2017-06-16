@@ -1,0 +1,18 @@
+.primary-brn {
+	display: block;
+	margin: 35px 0;
+	width: 205px;
+	color: $secondary_font_color;
+	font: 700 15px/55px $primary_font;
+	text-transform: uppercase;
+	box-shadow: 0 15px 15px rgba(0, 188, 135, 0.2);
+	border-radius: 29px;
+	background-color: #446edf;
+	background-image: linear-gradient(to top, #00a983 0%, #00bc87 100%);
+	&:hover {
+		text-decoration: none;
+		color: $secondary_font_color;
+		background: #446edf;
+		box-shadow: 0 15px 15px rgba(68, 110, 223, 0.2);
+	}
+}
