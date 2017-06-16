@@ -6057,6 +6057,32 @@ button.close {
     width: 315px;
     text-align: left; }
 
+.avocode-func {
+  padding: 90px 0 50px 0;
+  width: 100%;
+  min-height: 740px; }
+  .avocode-func .icons {
+    margin-bottom: 40px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row nowrap;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .avocode-func .icons li:first-child {
+      margin-right: 100px; }
+    .avocode-func .icons img {
+      width: 30px; }
+  .avocode-func p {
+    margin: 25px 0 45px 0; }
+
 .primary-brn {
   display: block;
   margin: 35px 0;
