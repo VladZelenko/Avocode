@@ -1,0 +1,21 @@
+{
+  "name": "Avocode",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "Vlad Zelenko"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/VladZelenko/Avocode",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/libs/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
