@@ -1,0 +1,18 @@
+.interface {
+	padding: 85px 0 80px 0;
+	width: 100%;
+	min-height: 970px;
+	.description {
+		margin: 35px auto;
+		max-width: 700px;
+		min-width: 280px;
+		width: 100%;
+	}
+}
+.capabilities-avocode li {
+	margin-top: 35px;
+	h3 {
+		color: $primary_head_color;
+		font: 400 18px $primary_font;
+	}
+}

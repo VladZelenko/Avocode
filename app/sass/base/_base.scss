@@ -12,3 +12,11 @@ p {
 	color: $primary_font_color;
 	font: 600 14px/24px $primary_font;
 }
+section {border-bottom: 1px solid #b1b1b1;}
+h3.title {font: 300 28px $primary_font;}
+.interface, .styles-code, .avocode-func {
+	.title {color: $primary_head_color;}
+}
+.export, .color-picker, .copy-func {
+	.title {color: $secondary_head_color;}
+}
